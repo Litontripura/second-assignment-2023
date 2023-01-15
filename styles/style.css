@@ -1,9 +1,11 @@
+
 body{
-    margin: 0 auto;
+    
     max-width: 1240px;
     font-family: 'Oswald', sans-serif;
     background: #022b4b;
     color: white;
+    overflow-x: hidden;
 
     
 }
@@ -59,6 +61,10 @@ button:hover{
     margin: 0 auto;
     text-align: center;
     margin-top: 5rem;
+}
+.header-text-parant button{
+    margin: 2rem auto;
+    margin-left: 35rem;
 }
 .featurs{
     color: orange;
@@ -215,6 +221,7 @@ button:hover{
     padding: 10px 20px;
   }
   .footer{
+    margin-left: 49px;
     background: black;
     width: 100%;
     height: 200px;
@@ -241,4 +248,171 @@ button:hover{
   .logo-4{
     font-size: 50px;
   }
+
+
+
+
+
+  /* responsiv  */
+
+
+  @media only screen and (max-width: 576px) {
+
+    .menubar {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .menubar-logo {
+        width: 100%;
+        text-align: center;
+      }
+      .menu ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     
+      }
+      .menu ul li {
+        width: 100%;
+        text-align: left;
+      }
+      .menu {
+        width: 100%;
+        text-align: right;
+      }
+      .menu button {
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: none;
+       
+      }
+   
+    
+
+    /* heder text style */
+    .header-text-parant{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-text{
+        padding: 2rem;
+    }
+    .header-text-parant button{
+    width: 40%;
+    
+    margin: 5rem auto;
+    }
+
+    .banner-section {
+        width: 100%;
+        text-align: center;
+        }
+        .img {
+        width: 100%;
+        }
+        img {
+        width: 100%;
+        }
+
+/* main style start */
+        .main-text{
+           
+        }
+         .main-top{
+            display: flex;
+            flex-direction: column-reverse;
+         }
+        .main-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            }
+            .main-img div {
+            margin-bottom: 20px;
+            }
+            .main-text {
+            width: 100%;
+            text-align: center;
+            margin: 5rem;
+            }
+            /* architect */
+            .architect{
+               max-width: 100%;
+            }
+            .architect-img-text {
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                max-width: 100%;
+                padding: 0;
+            }
+            .architect-bottom-img div>img {
+                width: 100%;
+                margin-left: 0;
+                padding: 0;
+            }
+            .architect-bottom-text {
+            width: 100%;
+            margin-bottom: 20px;
+            }
+            .architect-bottom-img {
+            width: 100%;
+            margin: 2rem auto;
+            padding: 0;
+            }
+            .architect-bottom-img img {
+            max-width: 100%;
+
+            }
+            .architect-button {
+            width: 100%;
+            text-align: center;
+            }
+            .architech-bottom .architech-text {
+            width: 100%;
+            text-align: center;
+            }
+            .architech-bottom .architech-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            }
+            .architech-bottom .architec-icon {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+            }
+
+    .architech-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .card img{
+        width: 50px;
+        margin-top: 25px;
+    }
+    .our-sponsor-icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsor-icon{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .sponsor-icon img{
+        
+    }
+
+
+
+
+
+
+
+  }
+  
 
