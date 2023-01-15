@@ -169,6 +169,16 @@ button:hover {
     position: relative;
 }
 
+.card:hover {
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.card img:hover {
+    transform: scale(1.5);
+    transition: .5s;
+}
+
 .architect-bottom-text-bottom ul>li {
     list-style: none;
 
@@ -253,7 +263,7 @@ button:hover {
     margin-left: 49px;
     background: black;
     width: 100%;
-    height: 200px;
+    height: 3rem;
     box-shadow: 0px 0px 10px #ccc;
     border-radius: 10px;
     display: flex;
@@ -283,10 +293,37 @@ button:hover {
 }
 
 
+.contact-section {
+    text-align: left;
+    width: 40%;
+    margin: 2rem auto;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10px;
+    padding: 3rem;
+
+}
+
+form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label,
+input,
+textarea {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: left;
+}
 
 
 
-/* responsiv  */
+
+
+/* responsiv section start */
 
 
 @media only screen and (max-width: 576px) {
@@ -365,7 +402,7 @@ button:hover {
 
     .main-top {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .main-img {
@@ -392,7 +429,7 @@ button:hover {
 
     .architect-img-text {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         max-width: 100%;
         padding: 0;
@@ -426,7 +463,7 @@ button:hover {
 
     .architect button {
         position: absolute;
-        top: 0;
+        top: 1012px;
         left: 0;
     }
 
@@ -476,9 +513,9 @@ button:hover {
     .sponsor-icon img {}
 
 
-.footer{
-    margin: 0 auto;
-}
+    .footer {
+        margin: 0 auto;
+    }
 
 
 
